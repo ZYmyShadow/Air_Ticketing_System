@@ -1,0 +1,10 @@
+g++ -fexec-charset=GBK .cpp -o .exe
+
+
+g++ -fexec-charset=GBK Refund.cpp Display.cpp Setting.cpp MainSource.cpp QueryRoute.cpp BookingTickets.cpp -o a.exe
+
+
+异常： 退票时未找到退票人，则跳出程序
+    输入终点站时可以输入拼音
+    输入数字是判定是否为正整数
+    程序易用性优化
